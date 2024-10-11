@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.react-pdf__Page__textContent {
+  display: none !important; /* Ensure text layer is hidden */
+  height: 0 !important; /* Ensure it doesn't affect the height */
+  visibility: hidden !important;
+  pointer-events: none;
+}
